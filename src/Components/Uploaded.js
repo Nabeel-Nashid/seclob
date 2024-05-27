@@ -8,7 +8,7 @@ import { PiMicrosoftExcelLogoFill } from "react-icons/pi";
 function Uploaded() {
   return (
     <Layout>
-      <div className="bg-[#FAFAFB] flex flex-col justify-center h-screen w-screen">
+      <div className="bg-[#FAFAFB] flex flex-col justify-center h-screen sm:w-screen">
         <div className="flex justify-center items-center">
           <div className="w-[596px] h-[367px] bg-white flex justify-center items-center rounded-md">
             <div className="flex flex-col">
@@ -106,7 +106,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Dashboard
+                          Tag 1
                         </a>
                       </li>
                       <li>
@@ -114,7 +114,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Settings
+                          Tag 2
                         </a>
                       </li>
                       <li>
@@ -122,7 +122,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Earnings
+                          Tag 3
                         </a>
                       </li>
                       <li>
@@ -130,7 +130,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Sign out
+                          Tag 4
                         </a>
                       </li>
                     </ul>
@@ -145,10 +145,7 @@ function Uploaded() {
                     <h6 className=" mr-1">TAG 2</h6>
                     <IoMdClose />
                   </button>
-                  <button className="bg-[#605BFF] mx-1 flex justify-center items-center font-semibold rounded-md text-white text-xs p-1 ">
-                    <h6 className=" mr-1">TAG 3</h6>
-                    <IoMdClose />
-                  </button>
+                  
                 </td>
               </tr>
 
@@ -201,7 +198,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Dashboard
+                          Tag 1
                         </a>
                       </li>
                       <li>
@@ -209,7 +206,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Settings
+                          Tag 2
                         </a>
                       </li>
                       <li>
@@ -217,7 +214,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Earnings
+                          Tag 3
                         </a>
                       </li>
                       <li>
@@ -225,7 +222,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Sign out
+                          Tag 4
                         </a>
                       </li>
                     </ul>
@@ -296,7 +293,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Dashboard
+                          Tag 1
                         </a>
                       </li>
                       <li>
@@ -304,7 +301,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Settings
+                          Tag 2
                         </a>
                       </li>
                       <li>
@@ -312,7 +309,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Earnings
+                          Tag 3
                         </a>
                       </li>
                       <li>
@@ -320,7 +317,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Sign out
+                          Tag 4
                         </a>
                       </li>
                     </ul>
@@ -392,7 +389,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Dashboard
+                          Tag 1
                         </a>
                       </li>
                       <li>
@@ -400,7 +397,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Settings
+                          Tag 2
                         </a>
                       </li>
                       <li>
@@ -408,7 +405,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Earnings
+                          Tag 3
                         </a>
                       </li>
                       <li>
@@ -416,7 +413,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Sign out
+                          Tag 4
                         </a>
                       </li>
                     </ul>
@@ -427,10 +424,7 @@ function Uploaded() {
                     <h6 className=" mr-1">TAG 1</h6>
                     <IoMdClose />
                   </button>
-                  <button className="bg-[#605BFF] mx-1 flex justify-center items-center font-semibold rounded-md text-white text-xs p-1 ">
-                    <h6 className=" mr-1">TAG 2</h6>
-                    <IoMdClose />
-                  </button>
+                  
                   <button className="bg-[#605BFF] mx-1 flex justify-center items-center font-semibold rounded-md text-white text-xs p-1 ">
                     <h6 className=" mr-1">TAG 3</h6>
                     <IoMdClose />
@@ -487,7 +481,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Dashboard
+                          Tag 1
                         </a>
                       </li>
                       <li>
@@ -495,7 +489,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Settings
+                          Tag 2
                         </a>
                       </li>
                       <li>
@@ -503,7 +497,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Earnings
+                          Tag 3
                         </a>
                       </li>
                       <li>
@@ -511,7 +505,7 @@ function Uploaded() {
                           href="#"
                           class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
-                          Sign out
+                          Tag 4
                         </a>
                       </li>
                     </ul>

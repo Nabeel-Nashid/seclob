@@ -6,10 +6,10 @@ import UploadContent from "./UploadContent";
 
 function Upload() {
   return (
-      <Layout>
+    <Layout>
       <UploadContent />
     </Layout>
   );
 }
-  
+
 export default Upload;

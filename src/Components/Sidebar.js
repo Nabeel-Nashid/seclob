@@ -1,13 +1,17 @@
 import React from "react";
 import { TbCashBanknoteFilled } from "react-icons/tb";
 import { BsFillGridFill } from "react-icons/bs";
-import { IoStatsChart,IoCalendar,IoNotifications,IoSettingsSharp } from "react-icons/io5";
+import {
+  IoStatsChart,
+  IoCalendar,
+  IoNotifications,
+  IoSettingsSharp,
+} from "react-icons/io5";
 import { CgNotes } from "react-icons/cg";
-
 
 function Sidebar() {
   return (
-    <div className="bg-white h-screen w-[218px]">
+    <div className="hidden sm:block bg-white h-screen w-[218px]">
       <div className="flex justify-center pt-5 items-center">
         <div className="bg-[#605BFF] h-7 w-7 rounded-full mr-3"></div>
         <h1 className="text-[24px]">Base</h1>

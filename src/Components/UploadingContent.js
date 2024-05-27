@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 function UploadingContent() {
   return (
-    <div className="bg-[#FAFAFB] flex justify-center h-screen w-screen">
+    <div className="bg-[#FAFAFB] flex justify-center h-screen sm:w-screen">
       <div className="flex justify-center items-center">
-        <div className="w-[596px] h-[367px] bg-white flex justify-center items-center rounded-md">
+        <div className="sm:w-[596px] w-[496px] sm:h-[367px] w-267px bg-white flex justify-center items-center rounded-md">
           <div className="flex flex-col">
-            <div className="w-[540px] h-[272px] border-2 border-dotted rounded-md flex flex-col justify-center">
+            <div className="sm:w-[540px] w-[480px] sm:h-[272px] h-[172px] border-2 border-dotted rounded-md flex flex-col justify-center">
               <div className="flex flex-col justify-center items-center">
                 <PiMicrosoftExcelLogoFill className="w-10 h-10 text-green-700" />
                 <h4 className="text-xs text-slate-400">upload-template.xlsx</h4>
