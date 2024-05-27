@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/seclob/static/css/main.b8f66f4a.css",
+    "main.js": "/seclob/static/js/main.ffd2b216.js",
+    "static/js/453.58259e27.chunk.js": "/seclob/static/js/453.58259e27.chunk.js",
+    "static/media/profile.jpg": "/seclob/static/media/profile.d151fa17dd122cee8951.jpg",
+    "index.html": "/seclob/index.html",
+    "main.b8f66f4a.css.map": "/seclob/static/css/main.b8f66f4a.css.map",
+    "main.ffd2b216.js.map": "/seclob/static/js/main.ffd2b216.js.map",
+    "453.58259e27.chunk.js.map": "/seclob/static/js/453.58259e27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8f66f4a.css",
+    "static/js/main.ffd2b216.js"
+  ]
+}
