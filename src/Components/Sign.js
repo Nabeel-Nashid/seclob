@@ -3,9 +3,10 @@ import React from "react";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
+import { AiFillDiscord } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
 import { GrApple } from "react-icons/gr";
+import { Link } from "react-router-dom";
 
 function Sign() {
   return (
@@ -25,11 +26,11 @@ function Sign() {
             className="md:mx-4"
           />
           <FaLinkedin size={"40px"} color="white" className=" md:mx-4" />
-          <FaDiscord size={"40px"} color="white" className=" md:mx-4" />
+          <AiFillDiscord size={"40px"} color="white" className=" md:mx-4" />
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center sm:w-1/2 bg-[white] px-3">
+      <div className="flex flex-col justify-center items-center sm:w-1/2 bg-[white] px-3 my-3">
         <div>
           <h1 className="sm:text-[36px] text-[24px] font-bold">Sign In</h1>
           <h6 className="font-normal text-[16px] my-4">
@@ -53,7 +54,7 @@ function Sign() {
           </div>
 
           <form className="bg-[#F8FAFF] p-5 rounded-md">
-            <h6 className="my-4">E-mail address</h6>
+            <h6 className="my-4">Email address</h6>
             <input
               type="text"
               id="name"
@@ -70,18 +71,30 @@ function Sign() {
               required
             />
             <h6 className="my-4 text-[#346BD4]">Forgot password</h6>
-            <button
-              class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-[#605BFF] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none block w-full"
-              type="button"
-            >
-              sign in
-            </button>
+            <Link to={"/upload"}>
+              <button
+                class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-[#605BFF] text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none block w-full"
+                type="button"
+              >
+                sign in
+              </button>
+            </Link>
             <div className="my-4 sm:flex flex-row justify-center">
               <h6 className=" text-center">Don't have an account? </h6>
               <h5 className="text-[#605BFF] text-center ml-2">
                 {" "}
                 Register here
               </h5>
+            </div>
+            <div className="sm:hidden flex justify-center">
+              <FaGithub size={"35px"} color="grey" className=" mx-2" />
+              <AiFillTwitterCircle
+                size={"35px"}
+                color="grey"
+                className="md:mx-2"
+              />
+              <FaLinkedin size={"35px"} color="grey" className=" mx-2" />
+              <AiFillDiscord size={"35px"} color="grey" className=" mx-2" />
             </div>
           </form>
         </div>

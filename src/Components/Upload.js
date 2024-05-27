@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Sidebar from "./Sidebar";
+import Header from "./Header";
+import Layout from "./Layout";
+import UploadContent from "./UploadContent";
 
 function Upload() {
   return (
-    <div>
-      Upload page
-    </div>
-  )
+      <Layout>
+      <UploadContent />
+    </Layout>
+  );
 }
-
-export default Upload
+  
+export default Upload;
