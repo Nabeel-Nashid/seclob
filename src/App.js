@@ -11,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Sign />} />
+          <Route path="/seclob" element={<Sign />} />
           <Route path="upload" element={<Upload />} />
           <Route path="uploading" element={<Uploading />} />
           <Route path="uploaded" element={<Uploaded/>} />
